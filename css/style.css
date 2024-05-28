@@ -1,0 +1,879 @@
+/* ===== COMMON CSS START ===== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+/* ===== COMMON CSS END ===== */
+
+
+/* ===== NAVBAR PART CSS START ===== */
+
+.navbar{
+    background: #1C1E53;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #BBBBCB;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all linear .4s;
+    padding-right: 32px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-item:last-child .nav-link {
+    padding-right: 0;
+}
+.navbar-expand-lg .navbar-nav{
+    padding-left: 416px;
+}
+.navbar .nav-btn button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: white;
+    padding: 16px 48px;
+    border-radius: 41px;
+    background: transparent;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    margin-left: 48px;
+    transition: all linear .4s;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.navbar .nav-btn button:hover{
+    background: #FCD980;
+    color: black;
+}
+
+/* ===== NAVBAR PART CSS END ===== */
+
+/* ===== BANNER PART CSS START ===== */
+
+#banner{
+    background: #1C1E53;
+    padding-top: 126px;
+    padding-bottom: 128px;
+}
+#banner .banner-left h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+#banner .banner-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 48px;
+}
+#banner .banner-left .bannerl1 button{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    padding: 16px 56px;
+    border-radius: 41px;
+    background: transparent;
+    text-transform: capitalize;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    transition: all linear .4s;
+}
+#banner .banner-left .bannerl1 .banner-btn button:hover{
+    background: #FCD980;
+    color: #1B1C2B;
+}
+#banner .banner-left .bannerl1{
+    display: flex;
+}
+#banner .banner-left .bannerl1 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    padding-left: 40px;
+    padding-right: 7px;
+    color: #FFFFFF;
+    padding-top: 22px;
+}
+#banner .banner-left .bannerl1 i{
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-top: 30px;
+}
+
+/* ===== BANNER PART CSS END ===== */
+
+
+/* ===== WORK PART CSS START ===== */
+#work{
+    background: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#work .work-left h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+#work .work-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    padding-bottom: 16px;
+    width: 405px;
+}
+#work .work-left .workl-link{
+    display: flex;
+}
+#work .work-left .workl-link h6{
+    color: #2405F2;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+#work .work-left .workl-link i{
+    font-size: 15px;
+    color: #2405F2;
+    padding-left: 5px;
+    padding-top: 9px;
+}
+#work h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+    padding-top: 16px;
+    padding-bottom: 8px;
+}
+#work p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+#work .wm1{
+    padding-bottom: 48px;
+}
+#work .wr1{
+    padding-bottom: 48px;
+}
+
+/* ===== WORK PART CSS END ===== */
+
+
+/* ===== PROJECT PART CSS START ===== */
+
+#project{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#project .project-title{
+    padding-bottom: 64px;
+}
+#project .project-title h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    text-transform: capitalize;
+
+}
+#project .pt-right{
+    display: flex;
+    padding-top: 17px;
+}
+#project .pt-right p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+#project .pt-right i{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 7px;
+    color: #282938;
+}
+
+#project .project-right .pr2{
+    padding-left: 9px;
+    padding-top: 32px;
+}
+#project .project-main{
+    position: relative;
+}
+#project .project-main .pm-overlay{
+    height: 100%;
+    width: 0;
+    padding: 312px 35px 78px 48px;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .4s;
+}
+#project .project-main:hover .pm-overlay{
+    opacity: 1;
+    width: 396px;
+}
+
+#project .project-main .pm-overlay .pm-text h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: 16px;
+}
+#project .project-main .pm-overlay .pm-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 40px;
+}
+#project .project-main .pm-overlay .pm-text .pm-link{
+    display: flex;
+}
+#project .project-main .pm-overlay .pm-text .pm-link p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FCD980;
+}
+#project .project-main .pm-overlay .pm-text .pm-link i{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 7px;
+    color: #FCD980;
+}
+#project .project-right .pr1{
+    position: relative;
+}
+#project .project-right .pr1 .pr1-overlay{
+    height: 100%;
+    width: 0;
+    background: linear-gradient(329.39deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .4s;
+}
+#project .project-right .pr1:hover .pr1-overlay{
+    opacity: 1;
+    width: 100%;
+}
+#project .pr1-overlay .pr1-item{
+    padding: 129px 36px 40px 56px;
+}
+#project .pr1-overlay .pr1-item h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    width: 213px;
+}
+#project .pr1-overlay .pr1-item .pr1-link{
+    display: flex;
+}
+#project .pr1-overlay .pr1-item .pr1-link p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FCD980;
+}
+#project .pr1-overlay .pr1-item .pr1-link i{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 7px;
+    color: #FCD980;
+}
+
+/* ===== PROJECT PART CSS END ===== */
+
+
+/* ===== NAVBAR PART CSS START ===== */
+
+#features {
+    background: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#features .f-title h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+#features .f-title h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    padding-top: 12px;
+    padding-bottom: 47px;
+}
+#features h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+#features p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+}
+#features .f-main{
+    background: #FFFFFF;
+    padding: 53px 33px 48px 48px;
+}
+#features .f-r2{
+    padding-top: 24px;
+}
+
+/* ===== NAVBAR PART CSS END ===== */
+
+
+/* ===== REVIEW PART CSS START ===== */
+
+#review{
+    background: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#review .review-left h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+#review .review-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+}
+#review .review-left{
+    padding-right: 100px;
+}
+#review .review-right h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #282938;
+    padding-bottom: 48px;
+}
+#review .review-right .r-profile{
+    display: flex;
+}
+#review .review-right .r-profile .rp-img{
+    padding-right: 14px;
+}
+#review .review-right .r-profile .profile-name h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+}
+#review .review-right .r-profile .profile-name{
+    margin-top: -6px;
+}
+#review .review-right .r-profile .profile-name p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    color: #282938;
+}
+#review .review-right .r-profile .profile-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 550px;
+}
+#review .review-right .r-profile .profile-icon i{
+    font-size: 13px;
+    color: rgba(70, 73, 112, 0.6)
+}
+#review .review-right .r-profile .profile-icon .icon1{
+    margin-right: 29px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    transition: all linear .4s;
+}
+#review .review-right .r-profile .profile-icon .icon2{
+    margin-right: 29px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    transition: all linear .4s;
+}
+#review .review-right .r-profile .profile-icon .icon1:hover{
+    background: #5239FA;
+}
+#review .review-right .r-profile .profile-icon .icon1:hover i{
+    color: #ffffff;
+}
+#review .review-right .r-profile .profile-icon .icon2:hover{
+    background: #5239FA;
+}
+#review .review-right .r-profile .profile-icon .icon2:hover i{
+    color: #ffffff;
+}
+#review .review-right .r-profile .profile-icon .icon1 i{
+    justify-content: center;
+    display: flex;
+    margin-top: 7px;
+}
+#review .review-right .r-profile .profile-icon .icon2 i{
+    justify-content: center;
+    display: flex;
+    margin-top: 7px;
+}
+
+/* ===== REVIEW PART CSS END ===== */
+
+
+/* ===== FAQ PART CSS START ===== */
+
+#faq{
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background: #FFFFFF;
+}
+#faq .faq-title h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 56px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+#faq .faq-title a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2405F2;
+}
+.accordion-button:not(.collapsed) {
+    background: #FFFFFF;
+}
+.accordion-item {
+    border: 2px solid #ECECF1;
+}
+.accordion {
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-border-color: #ffffff;
+    --bs-accordion-bg: #FFFFFF;
+    --bs-accordion-border-color: none;
+    --bs-accordion-btn-icon: url(../images/faq+.png);
+    --bs-accordion-btn-active-icon: url(../images/faq-.png);
+}
+.accordion-item .accordion-button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.accordion-item .accordion-button .ab-no{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2405F2;
+    padding-right: 59px;
+}
+.accordion-body {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgba(40, 41, 56, 0.87);
+    padding-bottom: 48px;
+    padding-left: 105px;
+    width: 720px;
+}
+
+/* ===== FAQ PART CSS END ===== */
+
+/* ===== CONTACT PART CSS START ===== */
+
+#contact{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#contact .container-main{
+    position: relative;
+}
+#contact .ctc:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(28, 30, 83, 0.50);
+    z-index: -1;
+}
+#contact .contact-left{
+    background: url(../images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+#contact .contact-left .cl-text{
+    padding: 96px 94px 261px 96px;
+}
+#contact .contact-left .cl-text h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+#contact .contact-left .cl-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+#contact .contact-right{
+    background: #1C1E53;
+    padding: 96px 107px 48px 96px;
+}
+#contact .contact-right .cr-top h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 16px;
+    color: #FFFFFF;
+}
+#contact .contact-right .cr-top p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #F4F6FC;
+    padding-bottom: 40px;
+}
+.form-control {
+    background: #1C1E53;
+    background-clip: none;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+}
+#contact .cr-btn button{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    color: white;
+    padding: 16px 150px;
+    border-radius: 41px;
+    background: transparent;
+    text-transform: capitalize;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+    transition: all linear .4s;
+    margin-top: 39px;
+    margin-bottom: 22px;
+}
+#contact .cr-btn button:hover{
+    background: #FCD980;
+    color: #1B1C2B;
+}
+#contact .cr-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact .cr-link .cr-link-m{
+    display: flex;
+}
+#contact .cr-link .cr-link-m p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 38px;
+}
+#contact .cr-link .cr-link-m i{
+    font-size: 15px;
+    padding-left: 7px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+
+/* ===== CONTACT PART CSS END ===== */
+
+
+/* ===== BLOG PART CSS START ===== */
+
+#blog{
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+#blog .blog-title h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    padding-bottom: 64px;
+}
+#blog .blog-date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+#blog h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+#blog .blog-detail{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.7);
+    padding-bottom: 32px;
+}
+#blog .blog-link{
+    display: flex;
+}
+#blog .blog-link p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+#blog .blog-link i{
+    font-size: 15px;
+    padding-left: 5px;
+    padding-top: 6px;
+    color: #282938;
+}
+
+/* ===== BLOG PART CSS END ===== */
+
+
+/* ===== FOOTER PART CSS START ===== */
+
+footer{
+    padding-top: 96px;
+    background: #1C1E53;
+}
+footer .footer-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 22px;
+    width: 399px;
+}
+footer .footer-right h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+    padding-bottom: 14px;
+}
+footer .footer-right p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(244, 246, 252, 0.8);
+    width: 399px;
+    padding-bottom: 28px;
+}
+footer .footer-right .fr-icon{
+    display: flex;
+}
+footer .footer-right .fr-icon i{
+    color: #FFFFFF;
+    padding-right: 26px;
+}
+footer .footer-right .fr-icon i:last-child{
+    padding-right: 0px;
+}
+footer .footer-contact{
+    padding-top: 17px;
+    background: #FCD980;
+    display: flex;
+    padding-left: 37px;
+    padding-right: 137px;
+}
+footer .footer-contact h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #282938;
+    padding-bottom: 1px;
+}
+footer .footer-contact p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(40, 41, 56, 0.8);
+}
+footer .footer-contact .fc-mail{
+    padding-right: 29px;
+}
+
+/* ===== FOOTER PART CSS END ===== */
+
+
+/* ===== FOOTER LINK PART CSS START ===== */
+
+#footer-link{
+    padding-top: 32px;
+    padding-bottom: 13px;
+}
+#footer-link h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+#footer-link ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#footer-link ul li{
+    padding-left: 32px;
+}
+#footer-link ul li:last-child{
+    padding-left: 0px;
+}
+#footer-link ul li a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+}
+/* ===== FOOTER LINK PART CSS END ===== */
